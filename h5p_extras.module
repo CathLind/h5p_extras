@@ -74,7 +74,7 @@ function h5p_extras_h5p_styles_alter(&$styles, &$libraries, $mode) {
 function h5p_css_overrides_h5p_scripts_alter(&$scripts, & $libraries, $mode) {
    // Add special styles for all H5P Content
    $scripts[] = (object) array(
-     'path' => drupal_get_path('module', 'h5p_extras') . '/h5p-global-overrides.js',
+     'path' => drupal_get_path('module', 'h5p_extras') . '/js/h5p-global-overrides.js',
      'version' => '?ver=1',
    );
 
